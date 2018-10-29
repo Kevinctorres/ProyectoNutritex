@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nutritex.nutritex_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.nutritex.nutritex.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nutritex.nutritex.inicio" />
+        <activity android:name="com.nutritex.nutritex.calculadora" />
+        <activity android:name="com.nutritex.nutritex.pesoidealcalculado" />
+        <activity android:name="com.nutritex.nutritex.Tablas" />
+        <activity android:name="com.nutritex.nutritex.PlanesEjercicios" />
+        <activity android:name="com.nutritex.nutritex.musculosFlaco" />
+        <activity android:name="com.nutritex.nutritex.MusculosNormal" />
+        <activity android:name="com.nutritex.nutritex.MusculoS1" />
+        <activity android:name="com.nutritex.nutritex.MusculoS2" />
+        <activity android:name="com.nutritex.nutritex.MusculosO" />
+        <activity android:name="com.nutritex.nutritex.MusculoEM" />
+        <activity android:name="com.nutritex.nutritex.ejercicioExtremoMorbido.BrazoEM" />
+        <activity android:name="com.nutritex.nutritex.ejercicioExtremoMorbido.CardioEM" />
+        <activity android:name="com.nutritex.nutritex.ejercicioExtremoMorbido.PiernaEM" />
+        <activity android:name="com.nutritex.nutritex.ejercicioObesidad1y2.AbdomenO" />
+        <activity android:name="com.nutritex.nutritex.ejercicioObesidad1y2.Cardio2O" />
+        <activity android:name="com.nutritex.nutritex.ejercicioObesidad1y2.CardioO" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosFlacos.BicepsF" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosFlacos.EspaldaF" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosFlacos.PechoF" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosFlacos.PiernaColaF" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosFlacos.TricepsF" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosNormal.AbdomenN" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosNormal.BicepsN" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosNormal.EspaldaN" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosNormal.PechoN" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosNormal.PiernaColaN" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosNormal.TricepsN" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso1.AbdomenS1" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso1.BicepsS1" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso1.Cardio2S1" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso1.CardioS1" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso1.PechoS1" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso1.PiernaColaS1" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso2.AbdomenS2" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso2.Cardio2S2" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso2.CardioS2" />
+        <activity android:name="com.nutritex.nutritex.ejerciciosSobrepeso2.PiernaColaS2" />
+        <activity
+            android:name="com.nutritex.nutritex.Registro"
+            android:label="@string/title_activity_registro" />
+        <activity android:name="com.nutritex.nutritex.plan_alimenticio"></activity>
+    </application>
+
+</manifest>

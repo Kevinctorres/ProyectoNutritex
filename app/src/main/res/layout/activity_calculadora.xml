@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd2a4860"
+    tools:context="com.nutritex.nutritex.calculadora">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="514dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Datos"
+            android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/tvPeso"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Peso (Kg)"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.251" />
+
+        <EditText
+            android:id="@+id/etPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Peso(KG)"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.763"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.247" />
+
+        <TextView
+            android:id="@+id/tvAltura"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Altura (mts)"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.38" />
+
+        <EditText
+            android:id="@+id/etAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Altura(MTS)"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.763"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.378" />
+
+        <TextView
+            android:id="@+id/tvSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Seleccione su sexo"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.483" />
+
+        <Spinner
+            android:id="@+id/spSex"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <TextView
+            android:id="@+id/tvComplexion"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Seleccione su complexion"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.601" />
+
+        <Spinner
+            android:id="@+id/spCompl"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:dropDownWidth="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.784"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607" />
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:onClick="calculadoraIMc"
+            android:text="CALCULAR"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btVolverI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dd2a4860"
+            android:onClick="volver"
+            android:text="Si deseas volver al inicio, clickea aqui"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd2a4860"
+    tools:context="com.nutritex.nutritex.Registro">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="513dp"
+        android:layout_marginBottom="16dp"
+        android:background="#dd2a4860"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            app:srcCompat="@drawable/logoapp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:onClick="registrar"
+            android:text="Registrar"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dd2a4860"
+            android:onClick="volver"
+            android:text="Ya tienes una cuenta?, Inicia sesion aqui"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

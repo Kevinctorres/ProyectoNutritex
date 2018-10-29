@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd2a4860"
+    tools:context="com.nutritex.nutritex.pesoidealcalculado">
+
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="517dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Peso ideal con Nutritex"
+            android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvIMCTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="IMC"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.186" />
+
+        <TextView
+            android:id="@+id/tvIMC"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#EEEEEE"
+            android:text="IMC"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.862"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvIMC"
+            app:layout_constraintVertical_bias="0.079" />
+
+        <TextView
+            android:id="@+id/tvSegunIMCTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Según el IMC"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.313" />
+
+        <TextView
+            android:id="@+id/tvSegunIMC"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#EEEEEE"
+            android:text="Segun el IMC"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.862"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvIMC"
+            app:layout_constraintVertical_bias="0.079" />
+
+        <TextView
+            android:id="@+id/tvMinRecomendadoTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Minimo Recomendado"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.042"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.448" />
+
+        <TextView
+            android:id="@+id/tvMinRecomendado"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#EEEEEE"
+            android:text="minrecomendado"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.862"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSegunIMC"
+            app:layout_constraintVertical_bias="0.116" />
+
+        <TextView
+            android:id="@+id/tvMaxRecomendadoTitulo"
+            android:layout_width="457dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Máximo Recomendado"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.589" />
+
+        <TextView
+            android:id="@+id/tvMaxRecomendado"
+            android:layout_width="355dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#EEEEEE"
+            android:text="maxrecomendado"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.862"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMinRecomendado"
+            app:layout_constraintVertical_bias="0.154" />
+
+
+        <Button
+            android:id="@+id/btPlanEjercicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:onClick="planEjercicio"
+            android:text="Plan Ejercicios"
+            android:textColor="@android:color/background_light" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <Button
+            android:id="@+id/btPlanAlimenticio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeSplitBackground"
+            android:onClick="planAlimenticio"
+            android:text="Plan alimenticio"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btVolverI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dd2a4860"
+            android:onClick="volver"
+            android:text="Si deseas volver al inicio, clickea aqui"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
