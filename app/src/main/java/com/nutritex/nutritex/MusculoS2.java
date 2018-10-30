@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.nutritex.nutritex_1.R;
-
 import com.nutritex.nutritex.ejerciciosSobrepeso2.*;
 
 public class MusculoS2 extends AppCompatActivity {

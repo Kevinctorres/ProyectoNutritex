@@ -324,9 +324,28 @@ public class pesoidealcalculado extends AppCompatActivity {
 
     }
     public void planEjercicio(View view){
-        //startActivity(new Intent(this,plan_alimenticio.class));
+        if (segunIMC =="Bajo") {
+            startActivity(new Intent(this,musculosFlaco.class));
+        }else if (segunIMC =="Normal"){
+            startActivity(new Intent(this,MusculosNormal.class));
+        }else if (segunIMC =="Sobrepeso I"){
+            startActivity(new Intent(this,MusculoS1.class));
+        }else if (segunIMC =="Sobrepeso II"){
+            startActivity(new Intent(this,MusculoS1.class));
+        }else if (segunIMC =="Obesidad I") {
+            startActivity(new Intent(this,MusculosO.class));
+        }else if (segunIMC =="Obesidad II"){
+            startActivity(new Intent(this,MusculosO.class));
+        }else if (segunIMC =="Mórbida"){
+            startActivity(new Intent(this,MusculoEM.class));
+        }else if (segunIMC =="Extrema"){
+            startActivity(new Intent(this,MusculoEM.class));
+        }
     }
-    public void planAlimenticio(View view){
+
+
+
+    public void planAlimento(View view){
         Intent intent= new Intent(pesoidealcalculado.this, plan_alimenticio.class);
         intent.putExtra("desayuno",desayuno);
         intent.putExtra("desayuno2",desayuno2);

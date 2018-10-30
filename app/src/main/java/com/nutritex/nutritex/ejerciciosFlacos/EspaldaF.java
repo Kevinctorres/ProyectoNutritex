@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import com.nutritex.nutritex_1.R;
-import com.nutritex.nutritex.*;
+
+import com.nutritex.nutritex.musculosFlaco;
 
 public class EspaldaF extends AppCompatActivity implements View.OnClickListener{
 
@@ -39,7 +40,7 @@ public class EspaldaF extends AppCompatActivity implements View.OnClickListener{
 
     public void onclick1(View view){
 
-        Intent miIntent=new Intent(EspaldaF.this,musculosFlaco.class);
+        Intent miIntent=new Intent(EspaldaF.this, musculosFlaco.class);
         startActivity(miIntent);
     }
 

@@ -9,8 +9,9 @@ import android.widget.ImageView;
 
 
 import com.nutritex.nutritex_1.R;
-import com.nutritex.nutritex.*;
 
+
+import com.nutritex.nutritex.MusculoEM;
 
 
 public class BrazoEM extends AppCompatActivity implements View.OnClickListener{
@@ -43,7 +44,7 @@ public class BrazoEM extends AppCompatActivity implements View.OnClickListener{
 
     public void onclick1(View view){
 
-        Intent miIntent=new Intent(BrazoEM.this,MusculoEM.class);
+        Intent miIntent=new Intent(BrazoEM.this, MusculoEM.class);
         startActivity(miIntent);
     }
 

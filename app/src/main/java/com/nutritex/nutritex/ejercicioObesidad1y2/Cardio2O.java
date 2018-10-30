@@ -8,7 +8,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.nutritex.nutritex_1.R;
-import com.nutritex.nutritex.*;
+
+import com.nutritex.nutritex.MusculosO;
 
 public class Cardio2O extends AppCompatActivity implements View.OnClickListener{
 
@@ -40,7 +41,7 @@ public class Cardio2O extends AppCompatActivity implements View.OnClickListener{
 
     public void onclick1(View view){
 
-        Intent miIntent=new Intent(Cardio2O.this,MusculosO.class);
+        Intent miIntent=new Intent(Cardio2O.this, MusculosO.class);
         startActivity(miIntent);
     }
 

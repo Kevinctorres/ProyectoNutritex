@@ -8,7 +8,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.nutritex.nutritex_1.R;
-import com.nutritex.nutritex.*;
+
+import com.nutritex.nutritex.MusculosNormal;
 
 public class PiernaColaN extends AppCompatActivity implements View.OnClickListener{
 
@@ -40,7 +41,7 @@ public class PiernaColaN extends AppCompatActivity implements View.OnClickListen
 
     public void onclick1(View view){
 
-        Intent miIntent=new Intent(PiernaColaN.this,MusculosNormal.class);
+        Intent miIntent=new Intent(PiernaColaN.this, MusculosNormal.class);
         startActivity(miIntent);
     }
 

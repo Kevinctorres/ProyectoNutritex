@@ -8,7 +8,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.nutritex.nutritex_1.R;
+import com.nutritex.nutritex_1.R;
 import com.nutritex.nutritex.*;
+
+import com.nutritex.nutritex.MusculoEM;
 
 public class CardioEM extends AppCompatActivity implements View.OnClickListener{
 
@@ -40,7 +43,7 @@ public class CardioEM extends AppCompatActivity implements View.OnClickListener{
 
     public void onclick1(View view){
 
-        Intent miIntent=new Intent(CardioEM.this,MusculoEM.class);
+        Intent miIntent=new Intent(CardioEM.this, MusculoEM.class);
         startActivity(miIntent);
     }
 

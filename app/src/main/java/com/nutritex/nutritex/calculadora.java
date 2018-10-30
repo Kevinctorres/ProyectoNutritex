@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.nutritex.nutritex_1.R;
 
@@ -41,12 +42,24 @@ public class calculadora extends AppCompatActivity {
     public void calculadoraIMc(View view){
         Intent intent= new Intent(calculadora.this, pesoidealcalculado.class);
         double peso, altura, IMC;
-        peso=Double.parseDouble(etPeso.getText().toString());
-        altura=Double.parseDouble(etAltura.getText().toString());
-        IMC=peso/Math.pow(altura,2);
-        String imc2 = String.valueOf(IMC);
-        intent.putExtra("imc",imc2); //obtener el resultado
-        startActivity(intent);
+        if (etAltura.getText().toString().isEmpty()==true) {
+            etAltura.setError("Ingrese su altura en Mts");
+        }
+        if (etPeso.getText().toString().isEmpty() == true) {
+            etPeso.setError("Ingrese su peso en Kg");
+        }
+        if (etAltura.getText().toString().isEmpty()==false) {
+            if (etPeso.getText().toString().isEmpty() == false) {
+                peso=Double.parseDouble(etPeso.getText().toString());
+                altura=Double.parseDouble(etAltura.getText().toString());
+                IMC = peso / Math.pow(altura, 2);
+                String imc2 = String.valueOf(IMC);
+                intent.putExtra("imc", imc2); //obtener el resultado
+                Toast.makeText(getApplicationContext(), "Calculando", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+            }
+        }
     }
     public void volver(View view){
         startActivity(new Intent(this,inicio.class));

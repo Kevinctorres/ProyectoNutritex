@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.nutritex.nutritex_1.R;
-
 import com.nutritex.nutritex.ejerciciosSobrepeso1.*;
 import com.nutritex.nutritex.ejercicioObesidad1y2.*;
 

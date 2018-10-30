@@ -45,7 +45,7 @@ public class musculosFlaco extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void MusculoFlaco_Espalda(View view){
+    public void flaco_Espalda(View view){
 
         Intent intent=new Intent(musculosFlaco.this, EspaldaF.class);
         startActivity(intent);

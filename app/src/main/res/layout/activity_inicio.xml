@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#dd2a4860"
-    tools:context="com.nutritex.nutritex.inicio">
+    tools:context="com.nutritex.nutritex.UI.inicio">
 
 
     <Button

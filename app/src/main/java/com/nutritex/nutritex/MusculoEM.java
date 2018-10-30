@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.nutritex.nutritex_1.R;
-
 import com.nutritex.nutritex.ejercicioExtremoMorbido.*;
 
 public class MusculoEM extends AppCompatActivity {

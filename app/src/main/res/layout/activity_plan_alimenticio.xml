@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#dd2a4860"
-    tools:context="com.nutritex.nutritex.PlanesEjercicios">
+    tools:context="com.nutritex.nutritex.plan_alimenticio">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -33,7 +33,8 @@
                 android:layout_height="113dp"
                 android:text="Desayuno: "
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvMediamañana"
@@ -41,7 +42,8 @@
                 android:layout_height="52dp"
                 android:text="Media mañana: "
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvAlmuerzo"
@@ -49,7 +51,8 @@
                 android:layout_height="135dp"
                 android:text="Almuerzo: "
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvMediaTarde"
@@ -57,7 +60,8 @@
                 android:layout_height="35dp"
                 android:text="Media tarde: "
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvCena"
@@ -65,7 +69,8 @@
                 android:layout_height="149dp"
                 android:text="Cena "
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -296,7 +301,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Dieta alimeticia diaria"
+        android:text="Dieta diaria"
         android:textColor="@color/colorAccent"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"

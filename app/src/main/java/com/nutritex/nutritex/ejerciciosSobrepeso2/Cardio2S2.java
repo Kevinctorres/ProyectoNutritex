@@ -9,7 +9,8 @@ import android.widget.ImageView;
 
 
 import com.nutritex.nutritex_1.R;
-import com.nutritex.nutritex.*;
+
+import com.nutritex.nutritex.MusculoS2;
 
 public class Cardio2S2 extends AppCompatActivity implements View.OnClickListener{
 
@@ -41,7 +42,7 @@ public class Cardio2S2 extends AppCompatActivity implements View.OnClickListener
 
     public void onclick1(View view){
 
-        Intent miIntent=new Intent(Cardio2S2.this,MusculoS2.class);
+        Intent miIntent=new Intent(Cardio2S2.this, MusculoS2.class);
         startActivity(miIntent);
     }
 
